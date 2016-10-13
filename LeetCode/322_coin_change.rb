@@ -31,3 +31,4 @@ def coin_change2(coins, amount)
     (1..amount).each {|current| coins_needed[current]}
     
     coins_needed[amount]
+end
